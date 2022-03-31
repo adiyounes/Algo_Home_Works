@@ -1,3 +1,4 @@
+//with arrays
 function calculate(N){
     let U=[0,1,2];
     for(let i=3;i<=N;i++){
@@ -5,7 +6,7 @@ function calculate(N){
     }
     return U[N];
 }
-
+//with Recursion
 function cal_rec(N){
     if(N==0){
         return 0;
@@ -18,5 +19,5 @@ function cal_rec(N){
     }
 }
 
-console.log(calculate(5));
-console.log(cal_rec(5));
+console.log("with arrays = "+calculate(5));
+console.log("with Recursion = "+cal_rec(5));
