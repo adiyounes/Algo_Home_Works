@@ -27,5 +27,5 @@ function cal_rec(N){
     }
 }
 
-console.log("with arrays = "+calculate(2));
-console.log("with Recursion = "+cal_rec(2));
+console.log("with arrays = "+calculate(5));
+console.log("with Recursion = "+cal_rec(5));
