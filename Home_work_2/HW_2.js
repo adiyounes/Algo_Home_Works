@@ -30,5 +30,4 @@ function inverse(arr,p,q){
 var array=[2,3,4,15,16,17,19,20,0,0,-4,5,6,7,8,9,10,1,2];
 var array2=[1,2]
 var array3=[];
-var array4=[2,3,4,15,16,17,19,20,0,0,-4,5,6,7,8,9,10,11,12,13,14,15,16];
 console.log(inverLongSeq(array));
